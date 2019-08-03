@@ -1,0 +1,19 @@
+{
+	"author" : "Jonathan Verrecchia",
+	"name" : "Empty JavaScript file",
+	"id" : "izr-emptyscript",
+	"inserts" :
+	[
+		{
+			"what" : "includescript.html",
+			"where" : "index.html/body/myjs"
+		}
+	,
+		{
+			"what" : "main.js",
+			"where" : "js/main.js",
+			"type" : "file"
+		}	
+	],
+	"incompatibilities" : ["h5bp-scripts"]
+}

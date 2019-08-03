@@ -1,0 +1,20 @@
+{
+	"author" : "Remy Sharp",
+	"name" : "HTML5 Shiv",
+	"id" : "html5shiv",
+	"inserts" :
+	[
+		{
+			"what" : "html5shiv.html",
+			"where" : "index.html/head/html5polyfill"
+		}
+	,
+		{
+			"what" : "html5shiv.js",
+			"where" : "js/vendor/html5shiv.js",
+			"type" : "file"
+		}
+	
+	],
+	"incompatibilities" : ["modernizr", "modernizrrespond", "html5shivrespond"]
+}

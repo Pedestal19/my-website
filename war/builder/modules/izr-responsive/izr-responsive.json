@@ -1,0 +1,47 @@
+{
+	"author" : "Jonathan Verrecchia",
+	"name" : "Initializr Responsive Template",
+	"id" : "izr-responsive",
+	"inserts" :
+	[
+		{
+			"what" : "index.html",
+			"where" : "index.html/body/content"
+		},
+		{
+			"what" : "main.css",
+			"where" : "main.css/primary"
+		},
+		{
+			"what" : "mediaqueries.css",
+			"where" : "main.css/mediaqueries"
+		}
+	,
+		{
+			"mode" : "less",
+			"what" : "less-include-mq.less",
+			"where" : "style.less/mediaqueries"
+		}
+	,
+		{
+			"mode" : "less",
+			"what" : "less-include-global.less",
+			"where" : "style.less/primary"
+		}
+	,
+		{
+			"mode" : "less",
+			"what" : "mediaqueries.css",
+			"where" : "less/media-queries.less",
+			"type":"file"
+		}		
+	,
+		{
+			"mode" : "less",
+			"what" : "style.css",
+			"where" : "less/global-mobile.less",
+			"type":"file"
+		}		
+	],
+	"incompatibilities" : ["h5bp-content", "h5bp-mediaqueries", "boot-hero"]
+}

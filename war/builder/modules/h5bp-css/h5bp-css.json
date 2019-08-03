@@ -1,0 +1,44 @@
+{
+	"author" : "Paul Irish",
+	"name" : "Boilerplate CSS",
+	"id" : "h5bp-css",
+	"inserts" :
+	[
+		{
+			"what" : "boilerplatecss.css",
+			"where" : "main.css/boilerplate"
+		}
+	,
+		{
+			"what" : "normalize.css",
+			"where" : "css/normalize.css",
+			"type" : "file"
+		}
+	,
+		{
+			"what" : "normalize.min.css",
+			"where" : "css/normalize.min.css",
+			"type" : "file"
+		}
+	,
+		{
+			"what" : "includenormalize.html",
+			"where" : "index.html/head/styleslib"
+		}
+	,
+		{
+			"mode" : "less",
+			"what" : "less-include.less",
+			"where" : "style.less/boilerplate"
+		}
+	,
+		{
+			"mode" : "less",
+			"what" : "boilerplatecss.css",
+			"where" : "less/normalize.less",
+			"type":"file"
+		}
+		
+	],
+	"incompatibilities" : ["boot-css"]
+}

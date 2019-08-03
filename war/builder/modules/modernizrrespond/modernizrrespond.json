@@ -1,0 +1,19 @@
+{
+	"author" : "Paul Irish",
+	"name" : "Modernizr + Respond.js",
+	"id" : "modernizrrespond",
+	"inserts" :
+	[
+		{
+			"what" : "modernizrrespond.html",
+			"where" : "index.html/head/html5polyfill"
+		}
+	,
+		{
+			"what" : "modernizr-2.8.3-respond-1.4.2.min.js",
+			"where" : "js/vendor/modernizr-2.8.3-respond-1.4.2.min.js",
+			"type" : "file"
+		}
+	],
+	"incompatibilities" : ["html5shiv", "modernizr", "respond", "html5shivrespond"]
+}

@@ -1,0 +1,25 @@
+{
+	"author" : "Paul Irish",
+	"name" : "Boilerplate Scripts",
+	"id" : "h5bp-scripts",
+	"inserts" :
+	[
+		{
+			"what" : "boilerplatescripts.html",
+			"where" : "index.html/body/myjs"
+		}
+	,
+		{
+			"what" : "main.js",
+			"where" : "js/main.js",
+			"type" : "file"
+		}
+	,
+		{
+			"what" : "plugins.js",
+			"where" : "js/plugins.js",
+			"type" : "file"
+		}		
+	],
+	"incompatibilities" : ["izr-emptyscript"]
+}

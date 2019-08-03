@@ -1,0 +1,19 @@
+{
+	"author" : "Scott Jehl",
+	"name" : "Respond.js",
+	"id" : "respond",
+	"inserts" :
+	[
+		{
+			"what" : "respond.html",
+			"where" : "index.html/head/respond"
+		}
+	,
+		{
+			"what" : "respond-1.4.2.min.js",
+			"where" : "js/vendor/respond-1.4.2.min.js",
+			"type" : "file"
+		}
+	],
+	"incompatibilities" : ["modernizrrespond", "html5shivrespond", "modernizr"]
+}

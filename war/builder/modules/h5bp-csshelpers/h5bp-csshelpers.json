@@ -1,0 +1,25 @@
+{
+	"author" : "Paul Irish",
+	"name" : "Boilerplate CSS Helpers",
+	"id" : "h5bp-csshelpers",
+	"inserts" :
+	[
+		{
+			"what" : "csshelpers.css",
+			"where" : "main.css/csshelpers"
+		}
+	,
+		{
+			"mode" : "less",
+			"what" : "less-include.less",
+			"where" : "style.less/csshelpers"
+		}
+	,
+		{
+			"mode" : "less",
+			"what" : "csshelpers.css",
+			"where" : "less/helpers.less",
+			"type":"file"
+		}		
+	]
+}

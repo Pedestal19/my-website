@@ -1,0 +1,19 @@
+{
+	"author" : "Remy Sharp",
+	"name" : "HTML5shiv + Respond.js",
+	"id" : "html5shivrespond",
+	"inserts" :
+	[
+		{
+			"what" : "html5shivrespond.html",
+			"where" : "index.html/head/html5polyfill"
+		}
+	,
+		{
+			"what" : "html5-3.6-respond-1.4.2.min.js",
+			"where" : "js/vendor/html5-3.6-respond-1.4.2.min.js",
+			"type" : "file"
+		}
+	],
+	"incompatibilities" : ["html5shiv", "modernizr", "respond", "modernizrrespond"]
+}

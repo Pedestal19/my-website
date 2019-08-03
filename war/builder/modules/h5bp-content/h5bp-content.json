@@ -1,0 +1,28 @@
+{
+	"author" : "Paul Irish",
+	"name" : "Basic Content",
+	"id" : "h5bp-content",
+	"inserts" :
+	[
+		{
+			"what" : "content.html",
+			"where" : "index.html/body/content"
+		},
+		{
+			"what" : "editorconfig",
+			"where" : ".editorconfig",
+			"type" : "file"
+		},
+		{
+			"what" : "gitattributes",
+			"where" : ".gitattributes",
+			"type" : "file"
+		},
+		{
+			"what" : "gitignore",
+			"where" : ".gitignore",
+			"type" : "file"
+		}
+	],
+	"incompatibilities" : ["izr-responsive", "boot-hero"]
+}

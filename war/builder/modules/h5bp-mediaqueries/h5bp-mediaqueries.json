@@ -1,0 +1,26 @@
+{
+	"author" : "Paul Irish",
+	"name" : "Boilerplate Media Queries",
+	"id" : "h5bp-mediaqueries",
+	"inserts" :
+	[
+		{
+			"what" : "mediaqueries.css",
+			"where" : "main.css/mediaqueries"
+		}
+	,
+		{
+			"mode" : "less",
+			"what" : "less-include.less",
+			"where" : "style.less/mediaqueries"
+		}
+	,
+		{
+			"mode" : "less",
+			"what" : "mediaqueries.css",
+			"where" : "less/media-queries.less",
+			"type":"file"
+		}	
+	],
+	"incompatibilities" : ["izr-responsive"]
+}
