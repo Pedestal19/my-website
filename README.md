@@ -9,25 +9,10 @@ Updates on master on github before rebase
 
 
 
+# purpose
 
+this is no ordinary read me file
 
-## Modules
-
-Initializr uses "modules", which are code snippets or files (or both) that will be included in the archive.
-
-The <code>modernizr</code> module, for instance, adds the following line in <code>index.html</code>:
-
-<code>\<script src="js/libs/modernizr-2.0.min.js"\>\</script\></code>
-
-and also adds <code>modernizr-2.0.min.js</code> in the <code>js/libs</code> directory.
-
-If you want to add a module to your archive, just add the name of that module as a GET parameter:
-
-http://www.initializr.com/builder?print&jquery&modernizr
-
-All the current available modules can be found on this <a href="https://github.com/verekia/initializr/tree/master/war/builder/modules">Github</a>.<br />
-
-# How a module is defined
 
 Let's take a look at what contains <a href="https://github.com/verekia/initializr/tree/master/war/builder/modules/modernizr">modules/modernizr</a> on the Git repo:
 <ul>
