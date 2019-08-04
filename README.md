@@ -5,10 +5,7 @@
 
 Edit on example branch
 
-now editing on update-readme branch 
-
-+++++++++ updated locally ++++++++
-
+Updates on master on github before rebase
 
 
 
