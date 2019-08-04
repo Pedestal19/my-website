@@ -3,6 +3,8 @@
 
 ## Download or Print
 
+Edit on example branch
+
 The idea of Initializr API is pretty simple. You can either download an archive or display its content.
 Just ping this URL to get an archive of Initializr:
 
