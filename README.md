@@ -1,3 +1,5 @@
+# This file is just a readme file
+__purpose__
 # Initializr - Documentation
 # august update
 
