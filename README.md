@@ -7,6 +7,10 @@ Edit on example branch
 
 Updates on master on github before rebase
 
+## repository purpose
+this will be a change that conflicts 
+with whatever is in the remote side
+this was edited locally.
 
 
 
