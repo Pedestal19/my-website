@@ -23,6 +23,10 @@ this was edited locally.
 
 this is no ordinary read me file
 
+## Getting started
+
+To get started with this project, just 'clone' this repository. 
+
 
 Let's take a look at what contains <a href="https://github.com/verekia/initializr/tree/master/war/builder/modules/modernizr">modules/modernizr</a> on the Git repo:
 <ul>
